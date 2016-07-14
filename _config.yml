@@ -11,12 +11,12 @@ name: Vivek Kumar Singh
 email: vsviveksingh30@gmail.com
 location: Lucknow,India
 company: Indian Institute of Information Technology
-company_url: 
+company_url: vksingh.me
 github_url: https://github.com/VivekProHacker
 description: This is the Portfolio of Vivek Kumar Singh
 favicon: favicon.png # Image must be in assets/images
 
-url: http://vivekprohacker.github.io # the base hostname & protocol for your site
+url: http://vksingh.me # the base hostname & protocol for your site
 
 ## Gem
 gems:
@@ -70,6 +70,10 @@ navs:
   -
     href: /about
     label: About
+
+  -
+    href: /certificate
+    label: Cerificate
 
 # Sidebar to show popular repo
 side_bar_repo_limit: 5 # Number of repos to show
