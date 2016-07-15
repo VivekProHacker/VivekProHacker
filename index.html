@@ -3,6 +3,26 @@ layout: default
 menu: home
 css: ['index.css', 'sidebar-popular-repo.css']
 ---
+<section class="jumbotron">
+    <div class="container">
+        <h1>{{ site.title }}</h1>
+        <div id="jumbotron-meta-info">
+            <span class="meta-info">
+                <span class="octicon octicon-location"></span>
+                {{ site.location }}
+            </span>
+            <span class="meta-info hvr-grow">
+                <span class="octicon octicon-organization"></span>
+                <a href="{{ site.company_url }}" target="_blank">{{ site.company }}</a>
+            </span>
+            <span class="meta-info hvr-grow">
+                <span class="octicon octicon-mark-github"></span>
+                <a href="{{ site.github_url }}" target="_blank">@{{ site.name }}</a>
+            </span>
+        </div>
+    </div>
+
+</section>
 
 <div class="container">
   <br>
@@ -19,60 +39,23 @@ css: ['index.css', 'sidebar-popular-repo.css']
     <div class="carousel-inner" role="listbox">
 
       <div class="item active">
-        <img src="assets/images/gallery/1.jpg" alt="Chania" width="460" height="345">
+        <img src="assets/images/gallery/4.jpg" alt="Chania" width="460" height="345">
         <div class="carousel-caption">
-          <section class="jumbotron">
-    <div class="container">
-        <h1>{{ site.title }}</h1>
-        <div id="jumbotron-meta-info">
-            <span class="meta-info">
-                <span class="octicon octicon-location"></span>
-                {{ site.location }}
-            </span>
-            <span class="meta-info hvr-grow">
-                <span class="octicon octicon-organization"></span>
-                <a href="{{ site.company_url }}" target="_blank">{{ site.company }}</a>
-            </span>
-            <span class="meta-info hvr-grow">
-                <span class="octicon octicon-mark-github"></span>
-                <a href="{{ site.github_url }}" target="_blank">@{{ site.name }}</a>
-            </span>
-        </div>
-    </div>
-
-</section>
-
+          <h3>Chania</h3>
+          <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
         </div>
       </div>
 
       <div class="item">
         <img src="assets/images/gallery/2.jpg" alt="Chania" width="460" height="345">
         <div class="carousel-caption">
-         <section class="jumbotron">
-    <div class="container">
-        <h1>{{ site.title }}</h1>
-        <div id="jumbotron-meta-info">
-            <span class="meta-info">
-                <span class="octicon octicon-location"></span>
-                {{ site.location }}
-            </span>
-            <span class="meta-info hvr-grow">
-                <span class="octicon octicon-organization"></span>
-                <a href="{{ site.company_url }}" target="_blank">{{ site.company }}</a>
-            </span>
-            <span class="meta-info hvr-grow">
-                <span class="octicon octicon-mark-github"></span>
-                <a href="{{ site.github_url }}" target="_blank">@{{ site.name }}</a>
-            </span>
+          <h3>Chania</h3>
+          <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
         </div>
-    </div>
-
-</section>
-
       </div>
     
       <div class="item">
-        <img src="assets/images/gallery/4.jpg" alt="Flower" width="460" height="345">
+        <img src="assets/images/gallery/1.jpg" alt="Flower" width="460" height="345">
         <div class="carousel-caption">
           <h3>Flowers</h3>
           <p>Beatiful flowers in Kolymbari, Crete.</p>
