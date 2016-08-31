@@ -233,7 +233,7 @@ INSTANCE
 * [Wiki](https://en.wikipedia.org/wiki/Singleton_pattern)
 * [Double-checked locking and the Singleton pattern](http://www.ibm.com/developerworks/library/j-dcl/)
 * [Volatile](http://www.javamex.com/tutorials/synchronization_volatile.shtml)
-* [单例模式](http://www.cnblogs.com/java-my-life/archive/2012/03/31/2425631.html)
+
 * [Stackover - Enum for singleton](http://stackoverflow.com/questions/26285520/implementing-singleton-with-an-enum-in-java)
 
 
