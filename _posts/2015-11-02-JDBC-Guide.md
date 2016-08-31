@@ -302,4 +302,3 @@ stmt.executeBatch(); // Execute together
 ## Ref
 
 - [Oracle JDBC driver](https://docs.oracle.com/cd/F49540_01/DOC/java.815/a64685/basic1.htm)
-- [JDBC快速入门教程](http://www.yiibai.com/jdbc/jdbc_quick_guide.html)
