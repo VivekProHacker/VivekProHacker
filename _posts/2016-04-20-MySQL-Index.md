@@ -211,5 +211,5 @@ select * from users where adddate < '2007-01-01';
 
 * [Stackoverflow - Composite index](http://stackoverflow.com/questions/1823685/when-should-i-use-a-composite-index)
 * [Stackoverflow - Primary key or Unique index?](http://stackoverflow.com/questions/487314/primary-key-or-unique-index)
-* [MYSQL-索引](https://segmentfault.com/a/1190000003072424)
+
 * [How MySQL Uses Indexes](http://dev.mysql.com/doc/refman/5.7/en/mysql-indexes.html)
